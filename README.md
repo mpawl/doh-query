@@ -9,7 +9,7 @@ doh-query has been tested against many popular DoH responders including:
 * Google
 * Quad-9's
 
-doh-query was created to test resoluting against Apple's DoH responder: `doh.dns.apple.com`. doh-query can be used to test hostname resolution against this DoH responder. 
+doh-query was created to test resoluting against Apple's DoH responder: `doh.dns.apple.com`. doh-query can be used to test hostname resolution against this DoH responder. [Details in this blog post](https://medium.com/@mpawl/whats-up-with-doh-dns-apple-com-investigating-apple-s-doh-responder-fce376a19052).
 
 # Installation and Setup
 
