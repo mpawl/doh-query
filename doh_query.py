@@ -50,7 +50,7 @@ def parse_dns_response(response_wire, short_output):
 
 def main():
     # Place args here
-    parser = argparse.ArgumentParser(description='Perform DoH query via Apple DNS')
+    parser = argparse.ArgumentParser(description='Perform DoH query via  DoH responder.')
     parser.add_argument('-n', '--name', required=True, help='Hostname to resolve')
     parser.add_argument('-r', '--responder', default='cloudflare-dns.com', help='Responder to use (default: cloudflare-dns.com)')
     parser.add_argument('-t', '--type', default='A', help='DNS record type (default: A)')
