@@ -29,7 +29,7 @@ python3 -m pip install -r requirements.txt
 ```
 usage: doh_query.py [-h] -n NAME [-r RESPONDER] [-t TYPE] [-s]
 
-Perform DoH query via Apple DNS
+Perform DoH query via a responder.
 
 options:
   -h, --help            show this help message and exit
